@@ -77,8 +77,7 @@ const Footer = () => {
                         variant='body2'
                         color={theme.palette.text.secondary}
                       >
-                        Copyright &copy; {new Date().getFullYear()} Bob's
-                        Programming Academy.
+                        Copyright &copy; {new Date().getFullYear()} Unfluke Inc
                       </Typography>
                     }
                   />
