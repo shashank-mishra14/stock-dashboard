@@ -36,10 +36,7 @@ const App = () => {
 
   return (
     <HelmetProvider>
-      <Helmet
-        titleTemplate="%s | Unfluke"
-        defaultTitle="Unfluke"
-      />
+      <Helmet titleTemplate='%s | Unfluke' defaultTitle='Unfluke' />
       <ColorModeContext.Provider value={colorMode}>
         <ThemeProvider theme={customTheme[mode]}>
           <CssBaseline />

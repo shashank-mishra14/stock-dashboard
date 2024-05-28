@@ -115,7 +115,7 @@ const Header = ({ onSidebarOpen }) => {
                     },
                   }}
                 >
-                  Cryptocurrency Dashboard
+                  Unfluke
                 </Typography>
               </IconButton>
             </Box>
